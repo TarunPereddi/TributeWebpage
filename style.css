@@ -1,29 +1,16 @@
-*{
-    color: azure;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-}
-body{
-    background: black;
-}
-h1{
-    font-size: 60px;
-    text-align: center;
-}
-h2{
-    font-size: 30px;
-    text-align: center;
-}
-img {
-    width: 40%;
-    height: 40%;
-    object-fit: cover;
-    float: left;
-    border: 5px solid #cebfbf;
-}
-.txt-cnt{
+.achievement-item {
     position: relative;
-    top: 2%;
-    left: 2%;
-    width: 100%;
-}
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+  }
+  
+  .swiper-container {
+    overflow: hidden;
+  }
+  
+  .swiper-slide {
+    position: relative;
+    width: 100
+  }
